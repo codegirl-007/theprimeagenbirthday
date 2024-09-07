@@ -37,7 +37,8 @@ body {
 .wishes hr {
   display: none;
 }
-.wishes .chakra-input, .wishes .chakra-textarea {
+.wishes .chakra-input,
+.wishes .chakra-textarea {
   background: #fff;
   color: #000;
 }
@@ -56,7 +57,7 @@ body {
   font-size: 72px;
   margin: 0 auto;
   display: block;
-  width: 800px;
+  width: 735px;
 }
 
 .cake {
@@ -158,7 +159,7 @@ body {
 }
 
 .candle {
-  background-color: #7B020B;
+  background-color: #7b020b;
   width: 16px;
   height: 50px;
   border-radius: 8px/4px;
@@ -246,7 +247,7 @@ body {
   height: 75px;
   width: 1px;
   padding: 1px;
-  background-color: #FDFD96;
+  background-color: #fdfd96;
   display: block;
   position: absolute;
   top: 125px;
