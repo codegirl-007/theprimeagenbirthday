@@ -8,12 +8,17 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+<script>
+  window.onload = function() {
+    var context = new AudioContext();
+  }
+  </script>
 	</head>
 <body>
 	<h1 class="title">Happy Birthday Prime!</h1>
 	<div id="balloon-container">
 	</div>
-	<div class="cake">
+  <div class="cake">
 		<div class="plate"></div>
 		<div class="layer layer-bottom"></div>
 		<div class="layer layer-middle"></div>
@@ -26,7 +31,11 @@
 				<div class="flame"></div>
 		</div>
 	</div>
-	
+	<div class="audio">
+    <audio controls>
+      <source src="boomer.mp3">
+    </audio>
+</div>
 
 <div class="wishes">
 	<script crossorigin src="https://unpkg.com/@memorista/client-ui@2/dist/index.bundle.js"></script>

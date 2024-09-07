@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 370px;
+  top: 428px;
   margin: 0 auto;
 }
 .wishes form {
@@ -225,6 +225,13 @@ body {
   transition: opacity 500ms;
   position: fixed;
   top: 0;
+}
+
+.audio {
+  position: absolute;
+  left: 50%;
+  margin-left: -137px;
+  top: 450px;
 }
 
 .balloon {
